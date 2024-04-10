@@ -28,7 +28,7 @@ const App = () => {
     <>
       {/* <RegisterPage /> */}
       <Routes>
-        <Route path="/" element={<RegisterPage />} />
+        <Route path="/partner-platform" element={<RegisterPage />} />
 
         <Route path="/menedżer" element={<ManagerPage />} />
         <Route path="/użytkownicy" element={<UserPage />} />
