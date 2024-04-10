@@ -33,7 +33,7 @@ function UserRoutes() {
           <Route path="/login" element={<LoginPage />} />
         </Route>
         <Route element={<PrivateRoute />}>
-          <Route path="/menedżer" element={<ManagerPage />} />
+          <Route path="/" element={<ManagerPage />} />
           <Route path="/użytkownicy" element={<UserPage />} />
           <Route path="/oferuje" element={<OfferPage />} />
           <Route path="/profil" element={<ProfilePage />} />

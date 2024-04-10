@@ -12,7 +12,7 @@ const menuItems = [
     {
         avatar: User,
         text: "Menedżer",
-        link: "/"
+        link: "/menedżer"
     },
     {
         avatar: Icon,
