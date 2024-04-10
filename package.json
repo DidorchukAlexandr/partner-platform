@@ -2,7 +2,6 @@
   "name": "partner-platform",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DidorchukAlexandr.github.io/partner-platform/",
   "dependencies": {
     "@fontsource/dm-sans": "^5.0.20",
     "@fontsource/public-sans": "^5.0.17",

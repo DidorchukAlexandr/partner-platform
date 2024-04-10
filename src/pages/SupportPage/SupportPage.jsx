@@ -3,7 +3,6 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/header/Header";
 import { Wrap } from "../ManagerPage/ManagerPage.styled";
 import SupportItems from "../../components/SupportItems/SupportItems";
-// import CalculateBill from "../../components/CalculateBill/CalculateBill";
 
 
 const SupportPage = () => {
@@ -15,8 +14,7 @@ const SupportPage = () => {
                 padding: "20px 35px",
                 }}>
              <Header />
-                <SupportItems />
-                 {/* <CalculateBill /> */}
+            <SupportItems />
             </div>   
              
         </Wrap>

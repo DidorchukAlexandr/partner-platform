@@ -2,7 +2,7 @@ import useForm from "../../shared/hooks/useForm";
 
 import initialState from "./initialState";
 import fields from "./fields";
-import { WrapForm, Title, Form, Btn, FormGroup, Label, Input } from "./RegisterForm.styled";
+import { WrapForm, Title, Form, BtnNavLink, FormGroup, Label, Input, Wrap } from "./RegisterForm.styled";
 
 const TextField = ({ label, ...props }) => {
     return (
@@ -12,8 +12,6 @@ const TextField = ({ label, ...props }) => {
         </FormGroup>
     )
 }
-
-
 
 const RegisterForm = ({ onSubmit }) => {
     const { state, handleChange, handleSubmit } = useForm({ initialState, onSubmit });
@@ -86,8 +84,9 @@ const RegisterForm = ({ onSubmit }) => {
                       marginLeft: "10px",
                   }}>Keep me logged in</label>
               </div>
-              <Btn type="submit">Register</Btn>
-      </Form>
+             
+          </Form>
+           <Wrap><BtnNavLink to="/menedżer">Register</BtnNavLink></Wrap>
     </WrapForm>
   );
 };

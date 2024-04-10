@@ -1,16 +1,9 @@
-// import { useDispatch } from 'react-redux';
-// import { register } from '../../redux/auth/auth-operations';
 import RegisterForm from '../../components/RegisterForm/RegisterForm';
 import mainLogo from "../../components/images/mainLogo.png";
 import { Title, Image, Wrap, PageWrap } from './RegisterPage.styled';
 import Container from '../../components/Container/Container';
 
 const RegisterPage = () => {
-    //  const dispatch = useDispatch();
-
-    // const onRegister = (data) => {
-    //     dispatch(register(data));
-    // }
 
     return (
         <Container >

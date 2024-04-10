@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const WrapForm = styled.div``;
@@ -16,12 +17,33 @@ export const Form = styled.form`
   width: 300px;
 `;
 
-export const Btn = styled.button`
+export const BtnNavLink = styled(NavLink)`
   color: rgb(255, 255, 255);
+  text-decoration: none;
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.7;
+  padding: 10px 60px;
+  /* width: 218px;
+  height: 54px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(108, 165, 252),
+    rgb(45, 107, 199) 52.5%,
+    rgb(1, 73, 180) 100%
+  );
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 15px; */
+`;
+
+export const Wrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 218px;
   height: 54px;
   border: none;
